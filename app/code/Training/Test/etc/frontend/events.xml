@@ -3,4 +3,8 @@
     <event name="controller_action_predispatch">
         <observer name="training_observer_predispatch" instance="Training\Test\Observer\RedirectToLogin" />
     </event>
+
+    <event name="controller_front_send_response_before">
+        <observer name="training_observer_logpagehtml" instance="Training\Test\Observer\LogPageHtml" />
+    </event>
 </config>
