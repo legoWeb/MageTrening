@@ -6,7 +6,7 @@ namespace Training\Test\Controller\Index;
  * Class Index
  * @package Training\Test\Controller\Index
  */
-class Index extends \Magento\Framework\App\Action\Action
+class Index extends \Magento\Framework\App\Action\Action implements \Magento\Framework\App\Action\HttpGetActionInterface
 {
     /**
      * @var \Magento\Framework\Controller\Result\RawFactory
