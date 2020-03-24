@@ -243,6 +243,7 @@ return [
         'Temando_Shipping' => 1,
         'Training_Dependency2' => 0,
         'Training_Dependency' => 0,
+        'Training_Js' => 1,
         'Training_Render' => 0,
         'Training_Test' => 0,
         'Training_TestOM' => 0,
