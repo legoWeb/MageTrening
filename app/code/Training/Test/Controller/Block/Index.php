@@ -40,7 +40,7 @@ class Index extends \Magento\Framework\App\Action\Action implements \Magento\Fra
 
         #2
         $layout = $this->layoutFactory->create();
-        $block = $layout->createBlock('Training\Test\Block\Test');
+        $block = $layout->createBlock('Training\Test\Block\Test::class');
         $raw = $this->rawFactory->create()->setContents($block->toHtml());
         return $raw;
     }

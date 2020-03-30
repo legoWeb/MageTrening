@@ -2,12 +2,17 @@
 
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-        <referenceContainer name="content">
-            <block name="testargument" template="Training_Render::template.phtml">
-                <arguments>
-                    <argument name="background_color" xsi:type="string">orange</argument>
-                </arguments>
-            </block>
-        </referenceContainer>
+<!--        <referenceContainer name="content">-->
+<!--            <block name="testargument" template="Training_Render::template.phtml">-->
+<!--                <arguments>-->
+<!--                    <argument name="background_color" xsi:type="string">orange</argument>-->
+<!--                </arguments>-->
+<!--            </block>-->
+<!--        </referenceContainer>-->
+        <referenceBlock name="testargument">
+            <arguments>
+                <argument name="background_color" xsi:type="string">orange</argument>
+            </arguments>
+        </referenceBlock>
     </body>
 </page>
