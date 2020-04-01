@@ -6,8 +6,8 @@
             <block name="layout-debug" template="Training_Js::layout-debug.phtml"/>
         </referenceContainer>
 
-<!--        <referenceContainer name="content">-->
-<!--            <block name="sidebar-review" template="Training_Js::review.phtml" before="-"/>-->
-<!--        </referenceContainer>-->
+        <referenceContainer name="content">
+            <block name="sidebar-review" template="Training_Js::review.phtml" before="-"/>
+        </referenceContainer>
     </body>
 </page>
